@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    int número;
+    
+    printf("Digite a Nota: ");
+    scanf("%d",&número);
+    
+    if (número >= 70){
+    printf("A nota %d voc~e Passou");
+    }
+    
+    else {
+    printf("A nota %d Recuperação");
+    
+    }
+    
+    return 0;
+}
