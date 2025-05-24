@@ -7,12 +7,13 @@ int main() {
     scanf("%d",&número);
     
     if (número >= 70){
-    printf("A nota %d voc~e Passou");
+    printf("A nota %d Passou");
     }
+    else if(número >= 50){
+    printf("A nota %d Reprovado");
     
-    else {
-    printf("A nota %d Recuperação");
-    
+    if (número <= 69)
+      printf("A nota %d Recuperação");
     }
     
     return 0;
